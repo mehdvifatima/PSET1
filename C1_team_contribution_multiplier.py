@@ -17,3 +17,7 @@ def team_impact(contributions:List[int])->List[int]:
         right_prod *= contributions[i]
 
     return impact
+    
+t= [-1, 1, 0, -3, 3]
+result = team_impact(t)
+print(result)
