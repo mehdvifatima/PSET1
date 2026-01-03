@@ -26,14 +26,14 @@ class Solution:
             if k == mid2:
                 mid_val2 = val
             k += 1
-
-solver = Solution()
-result = solver.median_sort(scoresA=[1, 2], scoresB=[3, 4])
-print(f"Median: {result}")       
-
         if total % 2 == 1:
             return float(mid_val2)
         else:
             return (mid_val1 + mid_val2) / 2.0
 
-    
+
+solver = Solution()
+result = solver.median_sort(scoresA=[1, 2], scoresB=[3, 4])
+print(f"Median: {result}")       
+
+
